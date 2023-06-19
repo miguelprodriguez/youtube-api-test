@@ -28,7 +28,7 @@ const VideoPlayer = ({
     }
 
     useEffect(() => {
-        if (currentVideoId) getVideoDetails()
+        getVideoDetails()
     }, [currentVideoId])
 
     return (
