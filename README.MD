@@ -4,4 +4,7 @@ Features
 - React
 - Typescript
 
-1. Just run `npm run dev` 
+1. Create .env file on root folder
+2. Add `VITE_YOUTUBE_API_KEY=AIzaSyB08jfD1M7yM-U-dneFQNLbQsYzOK_ed7w` on .env file
+3. Run `npm i`
+4. Run `npm run dev` to start locally
