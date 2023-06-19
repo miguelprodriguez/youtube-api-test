@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction } from 'react'
 
-const VideoItem = (
+const VideoListItem = (
   { 
     thumbnail, 
     title, 
@@ -28,4 +28,4 @@ const VideoItem = (
   )
 }
 
-export default VideoItem
+export default VideoListItem

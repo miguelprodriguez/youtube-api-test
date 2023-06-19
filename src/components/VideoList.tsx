@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react"
-import VideoItem from "./VideoItem"
+import VideoListItem from "./VideoListItem"
 
 const VideoList = (
     { 
@@ -11,7 +11,7 @@ const VideoList = (
         <div>
             {videos.map((video: any, index: number) => {
                 return (
-                    <VideoItem
+                    <VideoListItem
                         key={index}
                         videoIndex={index}
                         setCurrentVideoIndex={setCurrentVideoIndex}
