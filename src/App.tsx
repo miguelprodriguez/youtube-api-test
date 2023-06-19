@@ -30,7 +30,7 @@ function App() {
       {
         queryTerm !== ''
         &&
-        <div className='flex lex-col mt-2 gap-2 md:flex-row'>
+        <div className='flex flex-col mt-2 gap-2 lg:flex-row'>
           <VideoPlayer currentVideoIndex={currentVideoIndex} videos={videos} />
           <VideoList setCurrentVideoIndex={setCurrentVideoIndex} videos={videos} />
         </div>

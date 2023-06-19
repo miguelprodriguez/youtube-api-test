@@ -24,7 +24,7 @@ const Search = (
   }
 
   return (
-    <div className="border-black border-2 rounded-lg">
+    <div className="w-full border-black border-2 rounded-lg">
       <form onSubmit={event => handleSubmit(event)}>
         <input
           className="w-full rounded-lg p-2 outline-0"
