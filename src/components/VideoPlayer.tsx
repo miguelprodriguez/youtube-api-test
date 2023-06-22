@@ -11,7 +11,6 @@ const VideoPlayer = ({
     currentVideoIndex: number,
     videos: any
 }) => {
-
     const [videoData, setVideoData] = useState({ title: '', description: '' })
 
     const currentVideoId = videos[currentVideoIndex]?.id.videoId
@@ -36,7 +35,7 @@ const VideoPlayer = ({
             <iframe
                 width="853"
                 height="480"
-                src={`https://www.youtube.com/embed/${videos[currentVideoIndex]?.id.videoId}`}
+                src={`https://www.youtube.com/embed/${currentVideoId}`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 title="Embedded youtube"

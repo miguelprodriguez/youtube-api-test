@@ -13,9 +13,7 @@ const VideoListItem = (
     setCurrentVideoIndex: Dispatch<SetStateAction<number>> }
 ) => {
 
-  const handleVideoClick = () => {
-    setCurrentVideoIndex(videoIndex)
-  }
+  const handleVideoClick = () => setCurrentVideoIndex(videoIndex)
 
   return (
     <div 
